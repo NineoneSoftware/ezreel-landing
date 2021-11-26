@@ -34,23 +34,23 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
   - title                                 : Quality Recording
-    description                           : The EZReel camera captures high quality video and audio. Adjust your video recording resolution to HD or 4K*. Audio can be recorded in stereo* or mono sound.
+    description                           : Capture high quality video and audio with the EZReel application. Record your videos within EZReel with HDR Dolby Vision* in either HD or 4K*. Audio can be recorded in either stereo or mono sound*.
     fontawesome_icon_name                 : video
 
   - title                                 : Teleprompter
-    description                           : Have your script prompted to you as you record your video's takes. Adjust your prompt's font, speed and line spacing. Drag & move your teleprompter text around on your device's screen.
+    description                           : Have your Scene's script prompted to you as you record your Takes. Fully adjust your prompt's font, speed and line spacing. Also, drag & move your teleprompter text box around on your device's screen.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Organization
-    description                           : Organize your video creation by Projects, Scenes & Takes. A Scene holds your script. A Take is a video recording for your Scene. Your Scenes can hold an unlimited amount of takes.
+  - title                                 : Organize
+    description                           : Organize your video creation by Project, Scene and Take. A Scene holds your script. A Take is a video recording for a Scene. Your Scene can hold an unlimited amount of Takes.
     fontawesome_icon_name                 : folder-open
   
   - title                                 : Edit Your Takes
-    description                           : You can create an unlimited amount of Edits for each of your Scene's Takes. Editing includes Air Brushing, saturation and more...
+    description                           : You can create an unlimited amount of Edits for each of your Scene's Takes right within EZReel. Air Brush your video or adjust the saturation, contrast, brightness, sharpness, and more.
     fontawesome_icon_name                 : magic
 
-  - title                                 : Captions
-    description                           : With EZReel you can automatically generate captions for your video recordings. EZReel uses speech recognition technology to generate your video's captions.
+  - title                                 : Automated Captions
+    description                           : With EZReel you can automatically generate captions for your Takes. EZReel uses speech recognition technology to generate your Take's captions. You can then modify the generated speech as well as adjust the font of your captions!
     fontawesome_icon_name                 : closed-captioning
 
   - title                                 : Export & Share
