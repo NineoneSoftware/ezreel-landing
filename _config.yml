@@ -33,37 +33,30 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
+  - title                                 : Quality Recording
+    description                           : The EZReel camera captures high quality video and audio. Adjust your video recording resolution to HD or 4K*. Audio can be recorded in stereo* or mono sound.
+    fontawesome_icon_name                 : video
+
   - title                                 : Teleprompter
-    description                           : Have your script prompted to you as you record your video's takes.
+    description                           : Have your script prompted to you as you record your video's takes. Adjust your prompt's font, speed and line spacing. Drag & move your teleprompter text around on your device's screen.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Fully Adjustable
-    description                           : Adjust your prompt's font, speed and line spacing. Drag & move your teleprompter text around on your device's screen.
-    fontawesome_icon_name                 : adjust
-
-  - title                                 : Organized Video Creation
-    description                           : Organize your videos by Projects, Scenes & Takes. A Scene holds your script. A take is a video recording for your scene. Your Scenes can hold an unlimited amount of takes.
-    fontawesome_icon_name                 : magic
+  - title                                 : Organization
+    description                           : Organize your video creation by Projects, Scenes & Takes. A Scene holds your script. A Take is a video recording for your Scene. Your Scenes can hold an unlimited amount of takes.
+    fontawesome_icon_name                 : folder-open
   
   - title                                 : Edit Your Takes
-    description                           : Create an unlimited amount of edits for each of your scene's takes. Editing includes Air Brushing, saturation and more.
-    fontawesome_icon_name                 : star
+    description                           : You can create an unlimited amount of Edits for each of your Scene's Takes. Editing includes Air Brushing, saturation and more...
+    fontawesome_icon_name                 : magic
 
-  - title                                 : Video Captions
-    description                           : With EZReel you can automatically generate video captions when editing your Takes. EZReel uses speech recognition technology to generate your video's captions.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Captions
+    description                           : With EZReel you can automatically generate captions for your video recordings. EZReel uses speech recognition technology to generate your video's captions.
+    fontawesome_icon_name                 : closed-captioning
 
   - title                                 : Export & Share
-    description                           : Easily export your Takes and Edits to other applications for further editing or to social media platforms for sharing with your viewers.
+    description                           : Easily export your Takes and Edits to other applications for further editing or to social media platforms to share with your followers!
     fontawesome_icon_name                 : infinity
 
-  - title                                 : Recording Quality
-    description                           : The EZReel camera captures high quality video and audio. Adjust your video recording resolution to HD or 4K*. Audio can be recorded in stereo* or mono sound.
-    fontawesome_icon_name                 : box-open
-
-  - title                                 : Subscription Plans
-    description                           : EZReel is free to try but without a subscription audio will not be captured when recording. New subscribers to EZReel plans are eligible for a two week trial.
-    fontawesome_icon_name                 : box-open
 
 # Theme Settings
 topbar_color                              : "#000000"
