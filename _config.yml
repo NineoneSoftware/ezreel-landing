@@ -1,0 +1,130 @@
+#page title
+page_title                                : EZReel - Teleprompter and Video Creation Toolkit                                # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1594418384                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/Icon-60@3x.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : EZReel                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : FREE                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Add EZReel to your video creation toolkit and start streamlining your content creation workflow!
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Nineone Software Inc.                                
+your_link                                 : https://www.nineonesoftware.com            
+your_city                                 : Vancouver                                
+email_address                             : nineonesoftware@gmail.com
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+  - title                                 : Teleprompter
+    description                           : Have your script prompted to you as you record your video's takes.
+    fontawesome_icon_name                 : sync
+
+  - title                                 : Fully Adjustable
+    description                           : Adjust your prompt's font, speed and line spacing. Drag & move your teleprompter text around on your device's screen.
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : Organized Video Creation
+    description                           : Organize your videos by Projects, Scenes & Takes. A Scene holds your script. A take is a video recording for your scene. Your Scenes can hold an unlimited amount of takes.
+    fontawesome_icon_name                 : magic
+  
+  - title                                 : Edit Your Takes
+    description                           : Create an unlimited amount of edits for each of your scene's takes. Editing includes Air Brushing, saturation and more.
+    fontawesome_icon_name                 : star
+
+  - title                                 : Video Captions
+    description                           : With EZReel you can automatically generate video captions when editing your Takes. EZReel uses speech recognition technology to generate your video's captions.
+    fontawesome_icon_name                 : arrow-alt-circle-down
+
+  - title                                 : Export & Share
+    description                           : Easily export your Takes and Edits to other applications for further editing or to social media platforms for sharing with your viewers.
+    fontawesome_icon_name                 : infinity
+
+  - title                                 : Recording Quality
+    description                           : The EZReel camera captures high quality video and audio. Adjust your video recording resolution to HD or 4K*. Audio can be recorded in stereo* or mono sound.
+    fontawesome_icon_name                 : box-open
+
+  - title                                 : Subscription Plans
+    description                           : EZReel is free to try but without a subscription audio will not be captured when recording. New subscribers to EZReel plans are eligible for a two week trial.
+    fontawesome_icon_name                 : box-open
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/background.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#ffffff"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#6C63FF"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
